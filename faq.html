@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dúvidas e contato | TRAPZONE 2026</title>
+<meta name="description" content="Perguntas frequentes e formulário de contato do TRAPZONE.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap bar">
+<a class="logo" href="index.html" aria-label="TRAPZONE, página inicial">TRAP<span>ZONE</span></a>
+<nav aria-label="Menu principal"><ul><li><a href="index.html">Início</a></li><li><a href="lineup.html">Line-up</a></li><li><a href="ingressos.html">Ingressos</a></li><li><a href="informacoes.html">Informações</a></li><li><a href="faq.html" aria-current="page">Dúvidas e contato</a></li></ul></nav>
+</div>
+</header>
+<main>
+<section class="page-head"><div class="wrap"><h1>Dúvidas e contato</h1><p class="lead">Respostas rápidas e um formulário para o que faltar.</p></div></section>
+<div class="tape band" aria-hidden="true"></div>
+<section class="wrap block split"><div><h2>Perguntas frequentes</h2><details><summary>Qual é a data e o local do TRAPZONE?</summary><p>O festival acontece em 12 e 13 de dezembro de 2026, no Distrito Anhembi, em São Paulo.</p></details><details><summary>A que horas abrem os portões?</summary><p>Os portões abrem às 16h nos dois dias. O primeiro show começa às 18h30.</p></details><details><summary>Posso comprar ingresso para só um dia?</summary><p>Sim. A Pista 1 dia vale para o Dia 1 ou para o Dia 2, à sua escolha.</p></details><details><summary>Qual é a classificação etária?</summary><p>O evento é para maiores de 14 anos. Menores de 18 precisam estar acompanhados do responsável legal.</p></details><details><summary>Posso entrar e sair durante o evento?</summary><p>Com o Passaporte 2 dias, a entrada e a saída são liberadas dentro do mesmo dia. Nos demais ingressos, a saída encerra o acesso.</p></details><details><summary>Como funciona a meia-entrada?</summary><p>Vale para quem tem direito por lei, com comprovação na entrada. Leve documento e a carteirinha válida.</p></details><details><summary>Os horários dos shows podem mudar?</summary><p>Podem sofrer pequenos ajustes. Confirme os horários atualizados na página de Line-up.</p></details></div>
+<div><h2>Fale com a gente</h2><form class="contact" onsubmit="event.preventDefault();this.querySelector('.ok').hidden=false;this.reset();">
+<label for="nome">Nome</label><input id="nome" name="nome" type="text" placeholder="Seu nome completo" required>
+<label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@email.com" required>
+<label for="assunto">Assunto</label><select id="assunto" name="assunto"><option>Ingressos</option><option>Informações do evento</option><option>Imprensa e parcerias</option><option>Outro</option></select>
+<label for="msg">Mensagem</label><textarea id="msg" name="msg" rows="5" placeholder="Escreva sua dúvida" required></textarea>
+<button type="submit" class="btn">Enviar mensagem</button>
+<p class="ok" role="status" hidden>Formulário ilustrativo: nenhuma mensagem foi enviada.</p></form></div></section>
+</main>
+<footer class="site-footer">
+<div class="tape" aria-hidden="true"></div>
+<div class="wrap foot">
+<p class="logo">TRAP<span>ZONE</span> © 2026</p>
+<p>Site desenvolvido por Nicollas Silva e [nome da dupla]</p>
+<p class="small">Projeto acadêmico fictício. Os artistas são citados apenas como referência e não têm vínculo com este site.</p>
+</div>
+</footer>
+</body>
+</html>
